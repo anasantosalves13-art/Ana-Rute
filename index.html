@@ -58,11 +58,17 @@
      <button>​❤️<span>0</span></button>
      </button>🥀</button>0<span></button>
 </div>
+            </article>
 </main>    
 </body>
+    
    <script>
        const botoes =document.querySElector("button");
 
        botoes.forEach(function(botao) {
+           let curtiu = false;
        botao.addEventListener("click", botaoClicado);
+       function botaoClicado() {
+           console.log("fui clicado");
+           let texto
     
